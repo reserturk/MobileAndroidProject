@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="16dp"
+        android:text="A Baby and a Sock (Story 1)"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="The mother gave her baby a red apple. The baby tried to eat the apple. His mouth was too small. And he didn’t have any teeth. His brother took the apple. His brother ate the apple. The baby cried. His brother gave the baby a blue ball to play with. The baby smiled. His brother took the ball from the baby. He rolled the ball on the floor. The brown and white dog picked up the ball. The dog chewed on the ball. The baby cried again. His brother picked up the cat. He put the cat on the bed with the baby. The baby pulled the cat’s tail. The cat jumped off the bed. The dog chased the cat. The baby cried again. His brother let the baby hold a sock. The baby played with the sock. The baby was happy."
+        app:layout_constraintStart_toStartOf="@+id/txt"
+        app:layout_constraintTop_toTopOf="@+id/txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

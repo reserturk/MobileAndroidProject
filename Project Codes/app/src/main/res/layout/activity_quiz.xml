@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.QuizActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soru Buarada Yer alacak"
+                android:gravity="center"
+                android:id="@+id/question_tv"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:id="@+id/chip_group"
+                android:layout_below="@id/question_tv"
+                app:chipSpacing="16dp"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/cevap_a_chip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="answer a" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/cevap_b_chip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Şık b" />
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/cevap_c_chip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Şık c" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/next_btn"
+                android:layout_alignParentBottom="true"
+                android:text="Diger Soru"
+                app:cornerRadius="25dp"
+                app:rippleColor="@color/colorAccent"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

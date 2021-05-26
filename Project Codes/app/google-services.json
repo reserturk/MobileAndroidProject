@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "625976660934",
+    "project_id": "ingilizceapp-b8e9d",
+    "storage_bucket": "ingilizceapp-b8e9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625976660934:android:0002d0b705253bbf16d8c7",
+        "android_client_info": {
+          "package_name": "com.example.tekbasinaingilizce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625976660934-ktamm92n6073ab4t2dbp7ol5h71066l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tekbasinaingilizce",
+            "certificate_hash": "4386fdbc1d26167cbbd46909cafb878eb82afaa4"
+          }
+        },
+        {
+          "client_id": "625976660934-6jgfq96919lsha0rajrufd5m82md5gbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx3ADxtRuo4PcGgqiYeXbfmnQ7pxe9Rkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625976660934-6jgfq96919lsha0rajrufd5m82md5gbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

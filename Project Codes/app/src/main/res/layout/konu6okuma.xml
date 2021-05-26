@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="16dp"
+        android:text="Bobby's Big Birthday Party (Story 6)"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="When Bobby turned six, his mom and dad had a birthday party for him. Twenty of his closest friends joined in the party. Everyone wore birthday hats and had birthday cake. The birthday cake was colored blue and white, which are Bobby's favorite colors.
+
+As the day went on, the children played kickball in the back yard. Bobby played first base, Sally played outfield, and Bobby's dad was the pitcher.
+
+At the end of the party, Bobby asked his parents if he could have next year's birthday at the zoo. His parents agreed and everyone cheered."
+        app:layout_constraintStart_toStartOf="@+id/txt"
+        app:layout_constraintTop_toTopOf="@+id/txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/color_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:onClick="kayit_ol_yazi()"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_login" />
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="?actionBarSize"
+            android:textStyle="italic"
+
+            android:textSize="40sp"
+            android:textColor="#e5e8fc"
+            android:text="Giriş Yapınız."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Email Giriniz."
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:textSize="17sp" />
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/rounded_corner"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/round_corner_buttom"
+            android:onClick="Giris"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="GİRİŞ"
+            android:textColor="#777" />
+
+        <TextView
+            android:id="@+id/SifreKurtarma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="Kurtarma"
+            android:text="Şifremi Unuttum"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Kayit_ol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="kayit"
+            android:text="@string/kay_t_ol"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:text="Hızlı Giriş"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginRight="15dp"
+                android:background="@drawable/login_google"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <ImageButton
+                android:background="@drawable/login_face"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

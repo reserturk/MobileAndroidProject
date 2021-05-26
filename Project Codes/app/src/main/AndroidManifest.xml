@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tekbasinaingilizce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:name=".QuizApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".KurtarmaActi"></activity>
+        <activity android:name=".ui.add.add_quizActivity" />
+        <activity android:name=".ui.result.ResultActivity" />
+        <activity android:name=".ui.quiz.QuizActivity" />
+        <activity android:name=".ui.start.StartActivity" />
+        <activity
+            android:name=".chatacti"
+            android:label="Chat"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".kayitacti" />
+        <activity android:name=".ViewModel.anaMenu" />
+        <activity android:name=".ViewModel.konu10acti" />
+        <activity android:name=".ViewModel.konu9acti" />
+        <activity android:name=".ViewModel.konu8acti" />
+        <activity android:name=".ViewModel.konu7acti" />
+        <activity android:name=".ViewModel.konu6acti" />
+        <activity android:name=".ViewModel.konu5acti" />
+        <activity android:name=".ViewModel.konu4acti" />
+        <activity android:name=".ViewModel.konu3acti" />
+        <activity android:name=".ViewModel.konuacti1" />
+        <activity android:name=".ViewModel.konu1acti" />
+        <activity android:name=".ViewModel.sifir" />
+        <activity android:name=".ViewModel.konu1Activity" />
+        <activity android:name=".ViewModel.konu2acti" />
+        <activity android:name=".denemeactivity" />
+        <activity android:name=".konuIcerik" />
+        <activity
+            android:name=".SifreUnuttum"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".AnaEkran" />
+        <activity
+            android:name=".Kayitol"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Girisacti"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

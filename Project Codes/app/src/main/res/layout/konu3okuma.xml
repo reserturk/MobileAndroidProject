@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="16dp"
+        android:text="A Birthday Bike (Story 3)"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="January 7 is Benny’s birthday. He will be eight years old. He is in the third grade. He goes to Park Elementary School. An elementary school is for kids. It is only one mile away. He walks to school. It only takes 20 minutes. When it rains, he wears a raincoat. He used to take an umbrella. But he lost the umbrella. His mother gave him another umbrella. He broke that one. His mom said, “You and umbrellas don’t get along.” For his eighth birthday, Benny wants a bicycle. He can ride the bike to school. After school he can ride with his friends. He can ride the bike to the swimming pool. He can ride the bike to the library. His mom and dad took him to the bike store. They asked him to look at the bikes. He looked at all the bikes. He chose a red bike. He showed his parents. Dad said it cost too much. He told Benny to choose another bike. Benny chose a blue bike. Dad said the blue bike was the right price."
+        app:layout_constraintStart_toStartOf="@+id/txt"
+        app:layout_constraintTop_toTopOf="@+id/txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

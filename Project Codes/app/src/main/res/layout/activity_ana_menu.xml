@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_corner_buttom"
+    tools:context=".ViewModel.anaMenu">
+
+    <Button
+        android:id="@+id/btnKonu"
+        android:layout_width="182dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/menu_renk"
+        android:onClick="konulargit"
+        android:text="KONULAR"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnquiz"
+        android:layout_width="168dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="239dp"
+        android:background="@drawable/menu_renk"
+        android:onClick="quizgit"
+        android:text="QUİZ"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnChat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKonu"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="173dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="239dp"
+        android:background="@drawable/menu_renk"
+        android:onClick="chatgit"
+        android:text="CHAT"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnquiz"
+        app:layout_constraintTop_toBottomOf="@+id/btnKonu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

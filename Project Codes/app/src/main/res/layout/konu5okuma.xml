@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="16dp"
+        android:text="Whales (Story 5)"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Whales are mammals.  They breathe air like us.  They rise to the surface of the water to breathe.  They live in the oceans of the world.
+
+  There are many different kinds of whales.  Some are the killer whale, humpback whale, sperm whale and gray whale.  They are some of the largest animals.  The largest whale is the blue whale.  It can grow to be a hundred feet long and weigh as much as 15 elephants.  It is the largest animal on earth.
+
+
+
+  Whales leap out of the water.  They also dive and roll.  Whales dive to get food.  Some whales can dive more than a mile down!
+
+  Some whales are found in zoos, public aquariums, and entertainment parks.  These whales live in large glass tanks.  They learn things very easily.  They are trained to play with ball, leap, and dive down deep for certain objects."
+        app:layout_constraintStart_toStartOf="@+id/txt"
+        app:layout_constraintTop_toTopOf="@+id/txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

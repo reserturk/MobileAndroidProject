@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Girisacti">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/color_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_login" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="?actionBarSize"
+            android:textStyle="italic"
+
+            android:textSize="40sp"
+            android:textColor="#e5e8fc"
+            android:text="Giriş Yapınız."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/rounded_corner"
+
+            android:hint="E-mail Giriniz."
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/txtSifre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/rounded_corner"
+
+            android:hint="Şifre Giriniz."
+
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btn_giris"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/round_corner_buttom"
+            android:onClick="Girisyap"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            android:text="Giriş"
+            android:textColor="#777" />
+
+        <TextView
+            android:id="@+id/SifreKurtarma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="Kurtar"
+            android:text="Şifremi Unuttum"
+            android:textColor="#fff" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="kayitol"
+            android:text="@string/kay_t_ol"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:text="Hızlı Giriş"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+         />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

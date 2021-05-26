@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="409dp"
+        android:layout_height="530dp"
+        android:layout_marginTop="16dp"
+        android:text="The Port of Portland, Maine (Story 8)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Would you ever guess that the closest U.S. port city to Europe is in Maine? Well, it is.
+
+The coastline of Maine totals about 3,500 miles and consists of sandy beaches, peninsulas, islands, inlets, bays, coves and harbors. Portland Harbor is one of many harbors on the Maine coast. The city was built on two hilly peninsulas overlooking Casco Bay. The harbor became a major shipbuilding and mast building center in the 18th century. By 1806, Portland ranked as the sixth largest port in the country. Its success made it a target for attack by the British during the War of 1812 and by the Confederates during the Civil War. Portland was also a target for German U-boats, or submarines, during World War I. It was rated the most important harbor in the continental U.S. during World War II, since it was the closest one to Europe. The coastline and islands of Casco Bay were ringed with artillery bunkers on the alert for submarines. Some fishermen and divers claim that there are sunken German U-boats somewhere in Casco Bay.
+"
+        app:layout_constraintStart_toStartOf="@+id/txt"
+        app:layout_constraintTop_toTopOf="@+id/txt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

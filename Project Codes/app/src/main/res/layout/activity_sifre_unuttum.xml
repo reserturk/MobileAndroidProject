@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SifreUnuttum">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/color_white"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="542dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_login" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="?actionBarSize"
+            android:text="Kurtarma"
+
+            android:textColor="#e5e8fc"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Kayıtlı E-Mail Adresini Giriniz..."
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#eee"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner_buttom"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Gönder"
+            android:textColor="#777" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
